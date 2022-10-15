@@ -1,0 +1,98 @@
+.sidebar-content{
+    box-shadow: var(--shadow);
+}
+
+.card-body{
+    padding:  6rem 3rem;
+}
+
+.sidebar__top-name{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.sidebar__top-email{
+    color: var(--main-color);
+    font-size: 1.2rem;
+}
+
+.sidebar__img-banner{
+    height: 18rem;
+    width: 100%;
+}
+
+.list{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 0;
+}
+
+.list__item{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    border-top: 1px solid var(--main-color);
+    padding: 1rem 0;
+}
+
+.list__text{
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.5rem;
+}
+
+.list__firstname,
+.list__course-count{
+    color: var(--dark-blue);
+}
+
+.list__lastname{
+    color: var(--orange);
+}
+
+.sidebar__icon{
+    width: 2.5rem;
+    height: 2.5rem;
+    fill: var(--main-color);
+}
+
+.sidebar__icon:last-child{
+    fill: var(--white);
+}
+
+.sidebar__profile{
+    position: absolute;
+    top: 8rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.sidebar__profile::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 115%;
+    height: 115%;
+    transform: translate(-7%, -7%);
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: -1;
+}
+
+.sidebar__img-profile{
+    width: 13rem;
+    height: 13rem;
+}
+
+.dark  .card{
+    border: none ;
+}
+
+.dark  .card-body{
+   background-color: var(--secondry-light);
+   color: var(--light);
+}
+

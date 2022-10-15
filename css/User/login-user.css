@@ -1,0 +1,6 @@
+/* LAYOUTS CSS */
+@import 'layouts/_login-register.css';
+
+
+/* Pages CSS */
+@import 'pages/_login-admin.css';

@@ -1,0 +1,41 @@
+/* ABSTRACTS CSS */
+@import 'abstract/_variable.css';
+
+
+
+/* BASE CSS */
+@import 'base/_animation.css';
+@import 'base/_font-face.css';
+@import 'base/_typographi.css';
+@import 'base/_utilities.css';
+
+/* COMPONENTS CSS */
+@import 'components/_btn.css';
+@import 'components/_chat-box.css';
+@import 'components/_forms.css';
+@import 'components/_modal.css';
+
+/* LAYOUTS CSS */
+@import 'layouts/_content.css';
+@import 'layouts/_header-admin.css';
+@import 'layouts/_main.css';
+@import 'layouts/_sidebar-admin.css';
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--light);
+    transition: all 0.4s;
+    position: relative;
+}
+
+.dark{
+    background-color: var(--secondry);
+
+}
+

@@ -1,0 +1,46 @@
+.users{
+    padding: 4rem;
+    height: 81.5%;
+    overflow-y: auto;
+}
+
+.users__form-search{
+    display: flex;
+    gap: 2rem;
+}
+
+.active{
+    width: 12rem;
+    height: 2px;
+    background-color: var(--blue);
+    position: absolute;
+    top: 6.5rem;
+    right: 1%;
+}
+
+.users__list{
+    padding: 4rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.uesrs__item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    border: 1px solid var(--white-700);
+}
+
+.users__info{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1.5rem;
+}
+
+.users__img{
+    width: 5.5rem;
+    height: 5.5rem;
+}

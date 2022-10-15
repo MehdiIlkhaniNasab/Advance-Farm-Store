@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="fa">
+
+<head lang="fa">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/png" href="../../img/admin/profile/banana.png">
+    <link rel="stylesheet" href="../../css/Bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="../../css/Admin/admin.css">
+    <link rel="stylesheet" href="../../css/Admin/users-admin.css">
+    <title>مدیریت کاربران</title>
+</head>
+
+<body dir="rtl" class="">
+
+    <!-- HEADER -->
+    <div class="container  px-0">
+        <header class="header col-10 col-md-12 mx-auto ">
+            <!-- <div class="header__info">
+                <img src="../../img/admin/profile/banana.png" alt="admin photo" class="header__img">
+                <div class="header__details">
+                    <h4 class="header__name mb-2">مهدی ایلخانی نسب</h4>
+                    <p class="header__email my-0" lang="en">mehdiilkhaninasab</p>
+                </div>
+            </div>
+            <div class="header__btns">
+
+                <button class="btn-custome btn-header__dark-mode">
+                    <svg class="icon  header__icon ">
+                        <use xlink:href="../../fonts/sprite.svg#icon-sun"></use>
+                    </svg>
+                </button>
+
+                <button class="btn-custome btn-header__alert">
+                    <svg class="icon  header__icon ">
+                        <use xlink:href="../../fonts/sprite.svg#icon-sound"></use>
+                    </svg>
+
+                    <span class="header__alert-count">5</span>
+                </button>
+
+                <button class="btn-custome btn-custome__blue btn-header__log-out">
+                    <svg class="icon  header__icon ">
+                        <use xlink:href="../../fonts/sprite.svg#icon-log-out"></use>
+                    </svg>
+                    خروج از پنل
+                </button>
+            </div> -->
+        </header>
+    </div>
+    <!-- END HEADER -->
+
+    <!-- MAIN -->
+    <div class="container px-0">
+        <main class="main">
+            <div class="row justify-content-between mx-0">
+                <div class="col-10 col-md-3 sidebar mx-auto mx-md-0 px-0">
+                    <!-- <div class="sidebar-content">
+                        <div class="card position-relative text-center">
+                            <img class="card-img-top sidebar__img-banner" src="../../img/admin/banner/banner.png"
+                                alt="banner admin photo">
+                            <div class="card-body">
+                                <h4 class="card-title sidebar__top-name">مهدی ایلخانی نسب</h4>
+                                <p class="card-text sidebar__top-email" lang="en">mehdiilkhaninasab7@gmail.com</p>
+                                <ul class="list px-0">
+                                    <li class="list__item">
+                                        <svg class="icon  sidebar__icon ">
+                                            <use xlink:href="../../fonts/sprite.svg#icon-type"></use>
+                                        </svg>
+                                        <p class="list__text mb-0">
+                                            <span class="">نام کوچک</span>
+                                            <span class="list__firstname">مهدی</span>
+                                        </p>
+                                    </li>
+                                    <li class="list__item">
+                                        <svg class="icon  sidebar__icon ">
+                                            <use xlink:href="../../fonts/sprite.svg#icon-format-text-size"></use>
+                                        </svg>
+                                        <p class="list__text mb-0">
+                                            <span class="">نام خانوادگی</span>
+                                            <span class="list__lastname">ایلخانی نسب</span>
+                                        </p>
+                                    </li>
+                                    <li class="list__item">
+                                        <svg class="icon  sidebar__icon ">
+                                            <use xlink:href="../../fonts/sprite.svg#icon-wallet"></use>
+                                        </svg>
+                                        <p class="list__text mb-0">
+                                            <span class="">تعداد دوره</span>
+                                            <span class="list__course-count">35</span>
+                                        </p>
+                                    </li>
+                                </ul>
+                                <button class="btn-custome btn-custome__blue w-100">
+                                    تغییر اطلاعات
+                                    <svg class="icon  sidebar__icon ">
+                                        <use xlink:href="../../fonts/sprite.svg#icon-pen"></use>
+                                    </svg>
+                                </button>
+                            </div>
+
+                            <div class="sidebar__profile">
+                                <img src="../../img/admin/profile/banana.png" alt="admin photo"
+                                    class="sidebar__img-profile">
+                            </div>
+                        </div>
+                    </div>  -->
+                </div>
+                <div class="col-8 content px-0">
+                    <div class="content__wrapper">
+                        <ul class="content__tabs">
+                            <li class="content__tab">
+                                <a href="users-admin.html" class="content__tab-link ">
+                                    <svg class="icon tabs__icon ">
+                                        <use xlink:href="../../fonts/sprite.svg#icon-user"></use>
+                                    </svg>
+                                    کاربران
+                                </a>
+                            </li>
+                            <li class="content__tab">
+                                <a href="infomation-admin.html" class="content__tab-link">
+                                    <svg class="icon tabs__icon ">
+                                        <use xlink:href="../../fonts/sprite.svg#icon-study"></use>
+                                    </svg>
+                                    اطلاعات
+                                </a>
+                            </li>
+                            <li class="content__tab">
+                                <a href="products-admin.html" class="content__tab-link">
+                                    <svg class="icon tabs__icon ">
+                                        <use xlink:href="../../fonts/sprite.svg#icon-shop"></use>
+                                    </svg>
+                                    محصولات
+                                </a>
+                            </li>
+                            <li class="content__tab">
+                                <a href="analysis-admin.html" class="content__tab-link">
+                                    <svg class="icon tabs__icon ">
+                                        <use xlink:href="../../fonts/sprite.svg#icon-settings"></use>
+                                    </svg>
+                                    تحلیل
+                                </a>
+                            </li>
+                            <li class="content__tab">
+                                <a href="weblog-admin.html" class="content__tab-link">
+                                    <svg class="icon tabs__icon ">
+                                        <use xlink:href="../../fonts/sprite.svg#icon-news"></use>
+                                    </svg>
+                                    وبلاگ
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="active"></div>
+
+                        <!-- USERS SECTION -->
+                        <div class="users">
+
+                            <!-- SEARCH USER -->
+                            <form action="#" class="form row justify-content-between gap-3 mx-0">
+                                <div class="form__box-input  col-8 px-0">
+                                    <svg class="icon form__icon form__icon-search ">
+                                        <use xlink:href="../../fonts/sprite.svg#icon-search"></use>
+                                    </svg>
+                                    <input type="search" name="" id="search"
+                                        placeholder="نام یا ایمیل کاربر را وارد کنید " class="form-control form__input "
+                                        required>
+                                </div>
+                                <button type="reset" class="btn-custome btn-custome--gray col-3">
+                                    پاک کردن
+                                </button>
+                            </form>
+                            <!-- SEARCH USER -->
+
+                            <!-- USERS INFO -->
+                            <div class="users__list-container">
+                                <div class="users__list users__list-wrapper">
+                                    <!-- <div class="uesrs__item">
+                                        <div class="users__info">
+                                            <img src="../../img/admin/profile/banana.png" alt="photo user" class="users__img">
+                                            <div class="users__details">
+                                                <p class="users__name my-0">مهدی ایلخانی نسب</p>
+                                                <p lang="en" class="users__email">mehdiilkhaninasab</p>
+                                            </div>
+                                        </div>
+                                        <div class="users__btns">
+                                            <button class="btn-custome btn-custome--gray">پیام ها</button>
+                                            <button class="btn-custome btn-custome__blue">اطلاعات</button>
+                                            <button class="btn-custome btn-custome__red">حذف</button>
+                                        </div>
+                                    </div> -->
+                                </div>
+                            </div>
+                            <!-- END USERS INFO -->
+
+                        </div>
+                        <!-- END USERS SECTION -->
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <!-- END MAIN -->
+
+    <!-- CHATBOX FOR TICKET -->
+    <div class="btn-toggle-chat-box">
+        <button class="btn btn-custome__green " data-bs-toggle="modal" data-bs-target="#chat-box-modal">
+            <svg class="icon  chat-box-menu__icon ">
+                <use xlink:href="../../fonts/sprite.svg#icon-bubble"></use>
+            </svg>
+        </button>
+    </div>
+    <!-- END CHATBOX FOR TICKET -->
+
+
+
+    <!-- MODALS -->
+    <!-- MODALS CHAT BOX -->
+    <div class="modal" id="chat-box-modal">
+        <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title">گفتگو</h4>
+                    <div class="d-flex align-items-center gap-4">
+                        <svg class="icon  chat-box__icon chat-box-contacts">
+                            <use xlink:href="../../fonts/sprite.svg#icon-bubble"></use>
+                        </svg>
+                        <button type="button" class="btn-close  py-0" data-bs-dismiss="modal"></button>
+                    </div>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body position-relative">
+                    <div class="content-message">
+
+                        <div class="content-message_person content-message__user-box" dir="ltr">
+                            <div class="top-message">
+                                <p class="content-message__username">فاطمه اخوان</p>
+                                <p class="content-message__date">12/3/1401</p>
+                            </div>
+
+                            <div class="main-message">
+                                <img src="../../img/store/avaters/avatar1.png" alt="user photo"
+                                    class="contetnt-meassage__img">
+                                <p class="content-message__text-user mb-0 bg-primary text-start"> میخوام با این قالب یه
+                                    اپلیکیشن باحال بزنم ؟‌ تو هم همکاری میکنی ؟ </p>
+                            </div>
+                        </div>
+
+                        <div class="content-message_person content-message__admin-box">
+                            <div class="top-message">
+                                <p class="content-message__adminname">مهدی ایلخانی نسب</p>
+                                <p class="content-message__date">12/3/1401</p>
+                            </div>
+
+                            <div class="main-message">
+                                <img src="../../img/store/avaters/avatar2.png" alt="user photo"
+                                    class="contetnt-meassage__img">
+                                <p class="content-message__text-admin mb-0 bg-secondary"> میخوام با این قالب یه اپلیکیشن
+                                    باحال بزنم ؟‌ تو هم همکاری میکنی ؟ </p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- LIST MEMBER -->
+                    <div class="list-contact">
+                        <div class="list-contact__item">
+                            <div class="details-sender">
+                                <img src="../../img/store/avaters/avatar1.png" alt="uesr photo"
+                                    class="details-sender__img">
+                                <div class="details-sender__info">
+                                    <h3 class="details-sender__name"> آیسان مرادی </h3>
+                                    <p class="details-sender__message">سلام وقتتون بخیر شما ....</p>
+                                </div>
+                            </div>
+                            <div class="details-date">01/01/1399</div>
+                        </div>
+                        <div class="list-contact__item">
+                            <div class="details-sender">
+                                <img src="../../img/store/avaters/avatar2.png" alt="uesr photo"
+                                    class="details-sender__img">
+                                <div class="details-sender__info">
+                                    <h3 class="details-sender__name">مهدی ایلخانی نسب</h3>
+                                    <p class="details-sender__message">سلام وقتتون بخیر شما ....</p>
+                                </div>
+                            </div>
+                            <div class="details-date">01/01/1399</div>
+                        </div>
+                    </div>
+                    <!-- END LIST MEMBER -->
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <form action="#" class="form modal__form form-chat-box row  mx-0 w-100">
+                        <div class="form__box-input d-flex gap-2 col-12 px-2">
+                            <svg class="icon   chat-box-form__icon ">
+                                <use xlink:href="../../fonts/sprite.svg#icon-diamond"></use>
+                            </svg>
+                            <input type="text" name="" id="input-message" placeholder="متن پیام"
+                                class="form-control form__input form-input-edit-product-name" minlength="3" required>
+                            <button class="btn btn-lg btn-primary px-5">ارسال</button>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- END MODALS CHAT BOX -->
+
+
+
+    <!-- MODALS SHOW INFO  -->
+    <div class="modal" id="show-info-modal">
+        <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title">اطلاعات</h4>
+                    <button type="button" class="btn-close  py-0" data-bs-dismiss="modal"></button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body position-relative">
+                    <form action="#" class="form  row  mx-0">
+                        <div class="form__box-input  col-12 px-2">
+                            <svg class="icon  form__icon ">
+                                <use xlink:href="../../fonts/sprite.svg#icon-diamond"></use>
+                            </svg>
+                            <input type="text" name="" value="" id="firstname" placeholder="نام "
+                                class="form-control form__input  input-user-firstname " readonly>
+                            <label for="firstname" class="form__label my-0">نام </label>
+                        </div>
+
+                        <div class="form__box-input  col-12 px-2">
+                            <svg class="icon  form__icon ">
+                                <use xlink:href="../../fonts/sprite.svg#icon-t-shirt"></use>
+                            </svg>
+                            <input type="text" name="" value="" id="lastname" placeholder="نام خانوادگی"
+                                class="form-control form__input  input-user-lastname  " readonly>
+                            <label for="lastname" class="form__label my-0">نام خانوادگی</label>
+                        </div>
+
+                        <div class="form__box-input  col-12 px-2">
+                            <svg class="icon icon-user-admin form__icon ">
+                                <use xlink:href="../../fonts/sprite.svg#icon-user-admin"></use>
+                            </svg>
+                            <input lang="en" type="text" name="" value="" id="username" placeholder="نام کاربری"
+                                class="form-control form__input  input-user-username  " readonly>
+                            <label for="username" class="form__label my-0">نام کاربری</label>
+                        </div>
+
+                        <div class="form__box-input  col-12 px-2">
+                            <svg class="icon icon-user-admin form__icon ">
+                                <use xlink:href="../../fonts/sprite.svg#icon-world"></use>
+                            </svg>
+                            <input lang="en" type="email" name="" value="" id="email" placeholder="email "
+                                class="form-control form__input  input-user-email  " readonly>
+                            <label for="email" class="form__label my-0" lang="en">email </label>
+                        </div>
+
+                        <div class="form__box-input  col-12 px-2 ">
+                            <svg class="icon icon-key form__icon ">
+                                <use xlink:href="../../fonts/sprite.svg#icon-key"></use>
+                            </svg>
+                            <input type="text" name="" id="password" placeholder="رمز جاری"
+                                class="form-control form__input  input-user-password  " readonly>
+                            <label for="password" class="form__label my-0"> رمز جاری</label>
+                        </div>
+                        <div class="form__box-input  col-12 px-2 ">
+                            <svg class="icon icon-wallet form__icon ">
+                                <use xlink:href="../../fonts/sprite.svg#icon-wallet"></use>
+                            </svg>
+                            <input type="text" name="" id="count-product" placeholder="تعداد محصولات "
+                                class="form-control form__input input-user-product" readonly>
+                            <label for="count-product" class="form__label my-0"> تعداد محصولات </label>
+                        </div>
+
+                    </form>
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <button class="btn btn-danger btn-lg" data-bs-dismiss="modal">بستن</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- END MODALS SHOW INFO -->
+
+
+    <!-- MODALS SHOW TICKETS  -->
+    <div class="modal" id="show-ticket-modal">
+        <div class="modal-dialog modal-lg modal-dialog-scrollable modal-dialog-centered">
+            <div class="modal-content">
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title">تیکت ها</h4>
+                    <button type="button" class="btn-close  py-0" data-bs-dismiss="modal"></button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body ticket-box position-relative">
+                            <div class="box-reply-ticket d-none ">
+                                <!-- <div class="sender-tickets-details">
+                                    <h3 class="subject-ticket">عدم ارسال محصول</h3>
+                                    <p class="message-ticket">محصول هنوز به دست بنده نرسیده است</p>
+                                </div>
+                                <div class="reply-tickets-details">
+                                    <form action="#" class="form modal__form row   mx-0" id="form-reply-ticket">
+                                        <div class="form__box-input  col-12 px-2 my-4">
+                                            <textarea class="form-control form__input" name="" id="input-reply-ticket" minlength="10" maxlength="200" rows="2" placeholder="متن پیام" required=""></textarea>
+                                        </div>
+        
+                                        <button type="button" class="btn btn-primary btn-lg py-3 col-2" id="btn-send-ticket">ارسال</button>
+                                    </form>
+                                </div> -->
+                            </div> 
+
+                    <!-- ALL MEASSAGES -->
+                    <div id="accordion " class="tickets-cards-container">
+
+                        <div class="tickets-cards-wrapper d-flex flex-column-reverse">
+                            <!-- <div class="card  ">
+                                <div class="card-header  ticket-subject-text">
+                                    <svg class="icon  ticket__icon  ">
+                                        <use xlink:href="../../fonts/sprite.svg#icon-hourglass"></use>
+                                    </svg>
+                                    <a class="btn" data-bs-toggle="collapse" href="#collapseOne">
+                                        میوه های به دست من رسیده چیزی نیست که
+                                    </a>
+                                </div>
+                                <div class="tikets-box-container">
+                                    <div class="ticket-box-wrapper">
+                                        <div id="collapseOne" class="collapse show" data-bs-parent="#accordion">
+                                            <div class="card-body ticket-deatils-wrapper p-4">
+                                                <div class="alert alert-info ticket-question-text">
+                                                    <strong>مهدی جان </strong> سلام با عرض پوزش از شما محصول مد نظر شما هم اکنون
+                                                    دوباره برای شماره ارسال شد و تا ساعتی دیگر به دست شما خواهد رسید.
+                                                </div>
+                                                <div class="alert alert-success ticket-reply-text d-none ms-5">                                          
+                                                        <strong>مهدی جان </strong> سلام با عرض پوزش از شما محصول مد نظر شما هم اکنون
+                                                        دوباره برای شماره ارسال شد و تا ساعتی دیگر به دست شما خواهد رسید.                                              
+                                                </div>
+        
+                                                <button class="btn btn-primary btn-lg">پاسخ</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> -->
+                        </div>
+
+                    </div>
+                    <!-- ALL MEASSAGES -->
+
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <button class="btn btn-danger btn-lg" data-bs-dismiss="modal">بستن</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- END MODALS SHOW TICKETS -->
+
+
+    <!-- END MODALS -->
+
+    <script src="../../js/bootstrap/bootstrap.js"></script>
+    <script src="../../js/libraries/sweetalert.js"></script>
+    <script src="../../js/libraries/lodash.js"></script>
+    <script src="../../js/admin/common-script.js"></script>
+    <script src="../../js/admin/app.js"></script>
+    <script src="../../js/admin/users-admin.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,39 @@
+.login-register{
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    z-index: -1000;
+}
+
+.login-register__content{
+    background-color: var(--white);
+    padding: 4rem 4rem;
+    border-radius: 3px;
+    position: relative;
+    z-index: 0;
+}
+
+.login-register__content::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left:50% ;
+    transform: translate(-50% , 3rem);
+    width: 80%;
+    height: 3rem;
+    background-color: var(--main-color);
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    transition: all 0.4s;
+}
+.login-register__content:hover::before{
+    background-color: var(--green);
+}
+
+.login-register__title{
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+

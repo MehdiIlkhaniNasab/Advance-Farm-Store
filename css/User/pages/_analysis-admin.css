@@ -1,0 +1,55 @@
+.analysis{
+    padding: 4rem;
+    height: 81.5%;
+    overflow-y: auto;
+}
+
+.analysis__box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: var(--white);
+    padding: 2rem  1rem;
+    box-shadow: var(--shadow);
+    border-radius: 3px;
+    transition: all 0.4s;
+    margin-bottom: 4rem;
+}
+
+.analysis__box:hover{
+    transform: translateY(-3px) scale(1.02);
+}
+
+.analysis__box--1{
+    background-color: var(--dark-yellow);
+}
+.analysis__box--2{
+    background-color: var(--dark-blue);
+}
+.analysis__box--3{
+    background-color: var(--dark-red);
+}
+
+.analysis__icon{
+    width: 7rem;
+    height: 7rem;
+    fill: var(--white-low-opacity);
+}
+
+.analysis__users-count{
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.analysis__text{
+    font-size: 1.5rem;
+}
+
+.active{
+    width: 12rem;
+    height: 2px;
+    background-color: var(--blue);
+    position: absolute;
+    top: 6.5rem;
+    right: 45%;
+}

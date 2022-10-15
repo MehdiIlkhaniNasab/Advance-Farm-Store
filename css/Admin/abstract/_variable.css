@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+
+:root {
+  --white: #ffffff;
+  --white-900: #F5F5F5;
+  --white-800: #9da8b8;
+  --white-700: #BBC6D5;
+  --main-color: #676879;
+  --primary-color:#133141;
+  --blue: #009CF0;
+  --blue-primary: #0d6efd;
+  --secondry-primary:#6c757d;
+  --white-low-opacity: rgba(255,255,255,0.5);
+  /* semantic colors */
+  --green: #41b300;
+  --light-green: #00FF43;
+  --gray: #B4ACAC;
+  --red: #CE0000;
+  --dark-red: #dc3545;
+  --yellow: #FFC300;
+  --dark-yellow: #ffc107;
+  --dark-blue: #0d6efd;
+  --orange: #FF9100;
+  --dark-orange: #d17804;
+  --black: #000000;
+  --light: #f6f6f6;
+
+  --secondry: #051922;
+  --secondry-light: #012738;
+  /* border */
+  --golden-border: 1px solid #F6DF00;
+  
+  /* gradients */
+  --blue-to-black-gradient: linear-gradient(to bottom, rgba(42,78,92, 0.3) 30%, black 100%);
+
+  /* shadow */
+  --shadow: rgba(149, 157, 165, 0.4) 0px 8px 24px;
+  --shadow-yellow:  rgba(255, 255, 0, 0.4) 0px 8px 24px;
+  --shadow-blue: #009cf05d 0px 8px 24px;
+  --shadow-red: #ce000077 0px 8px 24px;
+  --shadow-green: #42b3009a 0px 8px 24px;
+  --shadow-low: rgba(2, 2, 2, 0.3) 0px 8px 24px;
+
+  /* BREAKPOINTS */
+  --breakpoint-xs: 0;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+
+
+  /* FONTS */
+  --font-primary: 'gandom', 'nazanin';
+  --font-secondry: 'koodak', 'yekan';
+  --font-latin: 'Comfortaa', cursive;
+  --font-size-default: 1.6rem;
+}
+
+
+/*
+   BREAKPOINTS 
+    1200px ------> 75em; 
+    992px ------> 62em; 
+    768px ------> 48em; 
+    576px ------> 36em; 
+  
+  
+*/

@@ -1,0 +1,57 @@
+.tickets{
+    padding: 2rem 4rem;
+    overflow-y: auto;
+    height: 85%;
+  }
+
+
+.tickets .card{
+    margin: 4rem 0 0;
+}
+
+.ticket-subject-text{
+    color: var(--dark-orange);
+}
+
+.ticket-subject-text a{
+    font-size: 1.6rem;
+    color: currentColor;
+}
+.ticket-subject-text a:hover{
+    color: var(--orange);
+}
+
+.ticket-reply-text{
+    font-size: 1.5rem;
+    color: var(--secondry-light);
+}
+
+.active {
+    width: 14rem;
+    height: 2px;
+    background-color: var(--blue);
+    position: absolute;
+    top: 6.5rem;
+    right: 60%;
+}
+
+.ticket__icon{
+    width: 3rem;
+    height: 3rem;
+    fill: currentColor;
+}
+
+.check-icon{
+    fill: var(--green);
+}
+
+/* dark mode */
+.dark .ticket-subject-text{
+    background-color: var(--secondry);
+}
+
+.dark .ticket-reply-text{
+    background-color: var(--white-700);
+    color: var(--secondry-light);
+}
+/* end dark mode */

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fa">
+
+<head lang="fa">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/png" href="../../img/store/favicon.png">
+
+    <link rel="stylesheet" href="../../css/Bootstrap/bootstrap.min.css"> 
+    <link rel="stylesheet" href="../../css/User/users.css">
+    <link rel="stylesheet" href="../../css/User/register-user.css">
+    <title>ثبت نام</title>
+</head>
+
+<body dir="rtl" class="">
+
+
+    <!-- LOGIN FORM -->
+    <div class="container-fluid px-0">
+        <div class="login-register register row justify-content-center align-items-center mx-0 px-0">
+            <div class="login-register__content col-10 col-lg-4 ">
+                <h2 class="login-register__title">ثبت نام در سایت</h2>
+                <form action="" class="form login-register__form register__form row  mx-0" id="register__form">
+
+                    <div class="form__box-input register__form-box-input col-6 px-2">
+                        <svg class="icon  form__icon form-modal__icon-6 ">
+                            <use xlink:href="../../fonts/sprite.svg#icon-diamond"></use>
+                        </svg>
+                        <input  type="text" name="" id="firstname" placeholder="نام "
+                            class="form-control form__input   register__firstname-input" minlength="3" maxlength="12" required>
+                        <label for="firstname" class="form__label register__firstname-label">نام </label>
+                    </div>
+
+                    <div class="form__box-input register__form-box-input col-6 px-2">
+                        <svg class="icon  form__icon form-modal__icon-6 ">
+                            <use xlink:href="../../fonts/sprite.svg#icon-t-shirt"></use>
+                        </svg>
+                        <input  type="text" name="" id="lastname" placeholder="نام خانوادگی"
+                            class="form-control form__input   register__lastname-input" minlength="3" maxlength="18" required>
+                        <label for="lastname" class="form__label register__lastname-label">نام خانوادگی</label>
+                    </div>
+
+                    <div class="form__box-input register__form-box-input col-12 px-2">
+                        <svg class="icon icon-user-admin form__icon ">
+                            <use xlink:href="../../fonts/sprite.svg#icon-user-admin"></use>
+                        </svg>
+                        <input lang="en" type="text" name="" id="username" placeholder="نام کاربری"
+                            class="form-control form__input   register__username-input" minlength="7" maxlength="18" required>
+                        <label for="username" class="form__label register__username-label">نام کاربری</label>
+                    </div>
+
+                    <div class="form__box-input register__form-box-input col-12 px-2">
+                        <svg class="icon  form__icon ">
+                            <use xlink:href="../../fonts/sprite.svg#icon-user-admin"></use>
+                        </svg>
+                        <input lang="en" type="email" name="" id="email" placeholder="ایمیل"
+                            class="form-control form__input   register__email-input"  required>
+                        <label for="email" class="form__label register__email-label">ایمیل </label>
+                    </div>
+
+                    <div class="form__box-input register__form-box-input col-12 px-2 ">
+                        <svg class="icon icon-key form__icon ">
+                            <use xlink:href="../../fonts/sprite.svg#icon-key"></use>
+                        </svg>
+                        <input type="password" name="" id="password" placeholder="رمز عبور"
+                            class="form-control form__input   register__password-input" minlength="8" maxlength="18" required>
+                        <label for="password" class="form__label login__password-label">رمز عبور</label>
+                        <svg class="icon icon-eye form__icon form__icon-password">
+                            <use xlink:href="../../fonts/sprite.svg#icon-eye"></use>
+                        </svg>
+                    </div>
+
+                    <button type="submit" class="btn-custome btn-custome--gray  btn-register-user">ثبت نام</button>
+                    <a href="login-user.html" class="text-center text-decoration-none my-4">ورود</a>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- END LOGIN FORM -->
+
+
+
+
+
+
+
+    <script src="../../js/bootstrap/bootstrap.js"></script>
+    <script src="../../js/libraries/sweetalert.js"></script>
+    <script src="../../js/libraries/lodash.js"></script>
+    <script src="../../js/user/common-script.js"></script>
+    <script src="../../js/user/register-user.js"></script>
+</body>
+
+</html>

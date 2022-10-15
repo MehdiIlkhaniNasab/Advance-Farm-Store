@@ -1,0 +1,27 @@
+/* MODAL  */
+.modal {
+    -webkit-backdrop-filter: blur(5px) brightness(50%);
+    backdrop-filter: blur(5px) brightness(30%);
+}
+
+.modal-content{
+    animation: moveToDown 0.4s ease-in-out;
+
+}
+
+
+
+
+/* dark mode */
+.dark .modal-content{
+    background-color: var(--secondry);
+    color: var(--light);
+}
+
+.dark .btn-close{
+    filter:  invert(1) grayscale(100%) brightness(200%);;
+}
+
+
+
+/* end dark mdoe */
